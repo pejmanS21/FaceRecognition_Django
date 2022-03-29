@@ -1,0 +1,29 @@
+
+.h1link:link {
+    text-decoration: none;
+    color: #0f3147;
+}
+
+.h1link:visited {
+    color: #0f3147;
+    text-decoration: none;
+}
+
+.h1link:hover {
+    /*color: red;*/
+    text-shadow: 0 0 4px rgb(49, 178, 97);
+    text-decoration: none;
+}
+
+.h1link:active {
+    color: #0f3147;
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: "Adobe Handwriting";
+    padding: 0 0 10px 0;
+    margin: 10px 0 0 0;
+    font-size: 35px;
+
+}

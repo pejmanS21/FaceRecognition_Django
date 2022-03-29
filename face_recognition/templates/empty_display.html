@@ -1,0 +1,67 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- django -->
+    <link rel="icon" href="{% static 'logo.png' %}" type="image/x-icon">
+    <link href="{% static 'css/navbar_style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/index_base.css' %}" rel="stylesheet">
+    <link href="{% static 'css/loader.css' %}" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Display Image</title>
+</head>
+<body style="background-color:rgb(230, 231, 232);">
+    <nav>
+        <ul class="horizontal">
+            <li>
+                <a href="http://0.0.0.0:8000/">Home</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/image/" methods="post">Image</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/video/">Video</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/tutorial/">Tutorial</a>
+            </li>
+            <li style="float:right;">
+                <a href="http://0.0.0.0:8000/admin">Admin</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <header align="center">
+        <h1>Tutorial</h1>
+    </header>
+    <article>
+
+        <h3>Step 1</h3> 
+        <p>First upload an image by <strong>Choose File</strong> button</p>
+        <a href="." class="btn btn-light" role="button">Choose File</a><br><br><br>
+
+        
+        <h3>Step 2</h3> 
+        <p>Then hit the <strong>Upload</strong> button to upload the selected image.</p>
+        <a href="." class="btn btn-outline-primary" role="button">Upload</a><br><br><br>
+        
+        <h3>Step 3</h3> 
+        <p>Then hit the <strong>Predict</strong> button to get prediction on the selected image.</p>
+        <a href="." class="btn btn-outline-success" role="button">Predict</a><br><br><br>
+    </article>
+    
+    <footer id="footer">
+        <a href="https://www.linkedin.com/in/pejman-samadi/" id="footer-content" target="_blank">
+            Made with &#x2764 by Pejman
+        </a>
+    </footer>
+</body>
+</html>

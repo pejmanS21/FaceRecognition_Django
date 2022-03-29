@@ -1,0 +1,91 @@
+@import url(//fonts.googleapis.com/css?family=Muli);
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    background-color: #FAF9F6;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Muli', sans-serif; font-weight: normal;}
+
+h1 {
+    /* border-bottom: 1px solid #bbb; */
+    padding: 0 0 10px 0;
+    margin: 10px 0 10px 0;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+h2 {
+    margin: 30px 0 20px;
+}
+
+#header {
+    padding: 10px 100px;
+    font-size: 20px;
+    background: #0F3147;
+    color: #fff;
+    border-bottom: 10px solid #0F3147;
+    overflow: auto;
+}
+
+#header .logo {
+    font-family: 'Muli', sans-serif;
+    float: left;
+    color: #EFEDE8;
+    font-size: 28px;
+    margin-left: 40%;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+form {
+    overflow: auto;
+    margin-left: 100px;
+    float: left;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+content {
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;  
+    height: 30%; 
+}
+
+article {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+#video {
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120;  
+    height: auto;
+}

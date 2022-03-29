@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- django -->
+    <link rel="icon" href="{% static 'logo.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/navbar_style.css' %}">
+
+    <title>Face Recognition</title>
+</head>
+<body style="background-color:rgb(230, 231, 232);">
+    <nav>
+        <ul class="horizontal">
+            <li>
+                <a href="http://0.0.0.0:8000/">Home</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/image/" methods="post">Image</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/video/">Video</a>
+            </li>
+            <li>
+                <a href="http://0.0.0.0:8000/tutorial/">Tutorial</a>
+            </li>
+            <li style="float:right;">
+                <a href="./admin">Admin</a>
+            </li>
+        </ul>
+    </nav>
+    <section align="center">
+        <a href="./" class='h1link'>
+            <h1>Face Recognition</h1>
+        </a>
+
+        <img src="{% static 'background.jpeg' %}" alt="background">
+    </section>
+
+    <footer id="footer">
+        <a href="https://www.linkedin.com/in/pejman-samadi/" id="footer-content" target="_blank">
+            Made with &#x2764 by Pejman
+        </a>
+    </footer>
+
+</body>
+</html>
