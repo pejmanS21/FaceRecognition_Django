@@ -70,3 +70,8 @@ then in your local computer to start `Django` server run following commands in y
 ## UI
 
 ![img](./media/FRDjango.gif)
+
+## Reference
+
+For the `FaceRecognition` module I use the following repo as my reference: 
+https://github.com/miladlink/torch_face
