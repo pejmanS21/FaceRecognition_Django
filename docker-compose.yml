@@ -2,9 +2,9 @@ version: "3.7"
 
 services:
 
-  django-segmenter:
+  django-face-recognition:
     build: ./
-    container_name: django-segmenter
+    container_name: django-face-recognition
     restart: always
     ports:
       - "8000:8000"
