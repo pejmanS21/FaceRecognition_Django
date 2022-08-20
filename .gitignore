@@ -4,3 +4,7 @@ images/
 *.ipynb
 .ipynb_checkpoints
 *.pt
+
+venv/
+env/
+*.sqlite3
